@@ -34,7 +34,7 @@
 .banner-description{
 width: 852px;
 height: 52px;
-color: rgb(13, 19, 33);
+color: #0D1321;
 font-size: 16px;
 font-weight: 400;
 text-align: center;
@@ -59,7 +59,23 @@ text-align: center;
     color: rgb(13, 19, 33);
      text-align: center;
     color:#0D1321;
-} 
+}
+
+
+.btn-submit{
+    width: 120px;
+    height: 57px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 20px 17px 20px;
+    margin: 0px 16px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255)
+
+
+}
 /* section styles */
 .section-styles{
    margin: 0 auto;
@@ -168,3 +184,114 @@ margin: 48px 0px;
     margin: 10px 0px;
     border-radius: 16px;
 }
+
+   
+
+.skills{
+    display: flex;
+    gap: 24px;
+    
+}
+.skill-content{
+    width: 364px;
+    height: 299px;
+    padding: 40px;
+    margin: 20px 24px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.06);
+
+}
+.skill-anchor{
+    display: flex;
+    flex-direction: column;
+    margin: 24px 0px;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration-line: underline;
+    color: #0D1321;
+}
+.footer-content{
+    background-image: url(../assets/handshake.jpg);
+    width: 1070px;
+    height: 363px;
+    border-radius: 16px;
+    text-align: center; 
+    background-position: center;
+    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
+    margin-bottom: 100px;
+    
+    
+    
+
+}
+.footer-elements{
+    width: 1044px;
+    height: 185px;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 32px;
+margin: 70px 50px 70px 50px;
+}
+.footer-tittle{
+    width: 292px;
+    height: 36px;
+    display: flex;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 32px;
+    color: #FFFFFF;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.footer-description{
+    width: 606px;
+height: 52px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+margin: 16px 0px;
+color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+.message-submit{
+    width: 684px;
+    height: 57px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    margin: 24px 0px;
+}
+.message{
+    width: 548px;
+height: 57px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+padding: 19px 20px 19px 20px;
+margin: 0px 16px;
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+background: rgb(255, 255, 255);
+color: #0D132166;
+}
+
