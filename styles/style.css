@@ -39,7 +39,7 @@ font-size: 16px;
 font-weight: 400;
 text-align: center;
 }
-.btn{
+.btn-primary{
     width: 244px;
     height: 65px;
     border-radius: 8px;
@@ -48,4 +48,115 @@ text-align: center;
     font-size: 20px;
     font-weight: 600;
     
+}
+.btn-secondary{
+    width: 140px;
+    height: 45px;
+    padding: 12px 20px 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+     text-align: center;
+    color:#0D1321;
+} 
+/* section styles */
+.section-styles{
+   margin: 0 auto;
+   padding: 50px;
+}
+
+.section-style{
+width: 852px;
+height: 113px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 130px 250px 0px 250px;
+margin: 48px 0px;
+}
+.section-tittle{
+    width: 850px;
+    height: 37px;
+    font-weight: 800px;
+    font-size: 32px;
+    color: #0D1321;
+    text-align: center;
+}
+.section-description{
+    width: 850px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 400px;
+    color: #0D1321;
+    text-align: center;
+}
+.banner-title-1{
+    display: flex;
+    gap: 70px;
+    justify-content: space-between;
+    margin: 48px 250px 48px 270px;
+    padding-top: 50px;
+    border-radius: 16px;
+}
+
+.tittle{
+    width: 390px;
+    height: 72px;
+    font-size: 24px;
+    font-weight: 700px;
+    color: #0D1321B3;
+}
+.tittle-description{
+    width: 468px;
+    height: 52px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400px;
+    color: #0D1321;
+}
+
+.tittle-2{
+    width: 475px;
+    height: 70px;
+    font-size: 24px;
+    font-weight: 700px;
+    color: #0D1321B3;
+
+
+}
+
+.banner-title-2 {
+    display: flex;
+    padding-left: 250px;
+    padding-top: 15px;
+    margin-top: 32px;
+    display: flex;
+    gap: 32px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-radius: 16px;
+    }
+       
+.banner-title-3{
+    display: flex;
+    gap: 115px;
+    justify-content: space-between;
+    margin: 48px 250px 48px 270px;
+    padding-top: 50px;
+    border-radius: 16px;
+}
+.banner-section{
+    width: 946px;
+    height: 1072px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    background: rgb(255, 255, 255);
+
 }
