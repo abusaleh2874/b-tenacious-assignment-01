@@ -228,7 +228,7 @@ margin: 48px 100px;
 }
 .footer-elements{
     width: 1044px;
-    height: 185px;
+    height: 185px; 
     display: flex;
 flex-direction: column;
 justify-content: center;
